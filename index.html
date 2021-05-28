@@ -6,26 +6,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calcualdora IMC</title>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Sintony:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/main.css">
-  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/normalize.css">
 </head>
 <body>
-  <h1 class="title">Calculadora IMC</h1>
+  <section class="main-content">
+    <article class="imc_menu">
+      <img class="image-bike" src="./assets/images/undraw_indoor_bike_pwa4.svg">
+      
+      <h1 class="title">Calculadora IMC</h1>
 
-  <div class="imc_menu">
-    <label for="altura">Altura</label>
-    <input type="number" id="altura" min="0" placeholder="Digite sua altura">
+      <label for="altura">Altura</label>
+      <input type="number" id="altura" min="0" placeholder="Digite sua altura">
 
-    <label for="peso">Peso</label>
-    <input type="number" id="peso" min="0" placeholder="Digite seu peso">
+      <label for="peso">Peso</label>
+      <input type="number" id="peso" min="0" placeholder="Digite seu peso">
 
-    <button id="btn">Calcular</button>
-  </div>
-  
+      <button id="btn">Calcular</button>
+    </article>
+    
+    <article class="result">
+      <img class="image" src="./assets/images/undraw_healthy_options_sdo3.svg">
+      
+      <h2 id="output"></h2>
+    
+    </article>
+  </section>
 
-  <h2 id="output">Resultado</h2>
-
-  <script src="./js/imc.js"></script>
+  <script src="./assets/js/imc.js"></script>
 
 </body>
 </html>
