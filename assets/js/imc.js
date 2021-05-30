@@ -29,7 +29,7 @@ function imc_calc(altura, peso){
 
 
 function imc_resultado(indice){
-  if(indice < 16) return "Não existe um resultado para valores de IMC abaixo de 16.";
+  if(indice < 16) return  change("default", "#3e70d4", "Não existe um resultado para valores de IMC abaixo de 16.");
 
   if(indice >= 16 && indice <= 16.99) 
     return change("red", "#f60a0a", "Muito abaixo do peso");
