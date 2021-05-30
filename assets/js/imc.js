@@ -13,6 +13,8 @@ function pegavalor(){
     const indice = imc_calc($altura, $peso);
 
     imc_resultado(indice);
+
+    window.scrollTo(0,document.body.scrollHeight);
     
   }else{
     alert("Digite os valores em todos os campos");

@@ -76,12 +76,13 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 #output{
   color: #ca9417;
   margin-top: 60px;
-  font-size: 2.3em;
+  font-size: 2em;
   text-transform: uppercase;
+  margin-bottom: 80px;
 }
 .image{
-  margin-top: 30px;
-  height: 44vh;
+  margin-top: 80px;
+  height: 33vh;
   width: auto;
 }
 
