@@ -2,7 +2,9 @@ body{
   font-family: "Open Sans", sans-serif;
   background-color: #0A1931;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 .main-content{
   display: flex;
   flex-direction: column;
