@@ -40,7 +40,7 @@ function imc_resultado(indice){
     return change("yellow", "#e2fa08", "Abaixo do peso");
 
   if(indice >= 18.5 && indice <= 24.99) 
-  return change("green", "#20f00d", "Peso normal");
+    return change("green", "#20f00d", "Peso normal");
 
   if(indice >= 25 && indice <= 29.99) 
     return change("yellow", "#e2fa08", "Acima do peso");
