@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calcualdora IMC</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Sintony:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Sintony:wght@400;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/main.css">
   <link rel="stylesheet" href="./assets/css/normalize.css">
 </head>
+
 <body>
   <section class="main-content">
     <article class="imc_menu">
       <img class="image-bike" src="./assets/images/undraw_indoor_bike_pwa4.svg">
-      
+
       <h1 class="title">Calculadora IMC</h1>
 
-      <label for="altura">Altura</label>
-      <input type="number" id="altura" min="0" placeholder="Digite sua altura (m)">
+      <form>
+        <label for="altura">Altura</label>
+        <input type="number" id="altura" min="0" placeholder="Digite sua altura (m)">
 
-      <label for="peso">Peso</label>
-      <input type="number" id="peso" min="0" placeholder="Digite seu peso (kg)">
+        <label for="peso">Peso</label>
+        <input type="number" id="peso" min="0" placeholder="Digite seu peso (kg)">
+      
+        <button id="btn">Calcular</button>
+      </form>
 
-      <button id="btn">Calcular</button>
     </article>
-    
+
     <article class="result">
       <img class="image" src="./assets/images/default_imc.svg">
       <h2 id="output">Aguardando cálculo...</h2>
@@ -34,7 +42,8 @@
     <nav class="icons">
       <ul>
         <a href="https://www.instagram.com/vinimedeiros13/" target="_blank"><i class="icons fab fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/vinimedeiros13/" target="_blank"><i class="icons fab fa-linkedin-in"></i></a>
+        <a href="https://www.linkedin.com/in/vinimedeiros13/" target="_blank"><i
+            class="icons fab fa-linkedin-in"></i></a>
         <a href="https://github.com/vinimedeiros13" target="_blank"><i class="icons fab fa-github"></i></a>
       </ul>
     </nav>
@@ -44,4 +53,5 @@
   <script src="./assets/js/change.js"></script>
 
 </body>
+
 </html>

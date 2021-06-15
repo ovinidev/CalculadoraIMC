@@ -2,20 +2,24 @@ body{
   font-family: "Open Sans", sans-serif;
   background-color: #0A1931;
 }
+
 html{
   scroll-behavior: smooth;
 }
+
 .main-content{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .image-bike{
   width: 35vh;
   height: 35vh;
   margin-top: 50px;
 }
+
 .title{
   color: #FFC947;
   text-align: center;
@@ -23,6 +27,7 @@ html{
   font-size: 2em;
   text-transform: uppercase;
 }
+
 .imc_menu{
   color: #FFC947;
   display: flex;
@@ -30,13 +35,16 @@ html{
   justify-content: center;
   align-items: center;
 }
+
 .imc_menu label{
   display: none;
 }
+
 input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{   
   -webkit-appearance: none;  
   margin: 0; 
 }
+
 .imc_menu input{
   background-color: #102446;
   border-radius: 5px;
@@ -47,6 +55,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
   margin: 20px 20px;
   border: 3px solid #122544;
 }
+
 .imc_menu input:hover{
   background-color: #182f53;
   transition: background ease .8s;
@@ -54,6 +63,13 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 
 .imc_menu input::placeholder{
   color: #FFC947;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #btn{
@@ -66,9 +82,11 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
   cursor: pointer;
   transition: background ease .5s;
 }
+
 #btn:hover{
   background-color: #c3a356;
 }
+
 .result{
   display: flex;
   flex-direction: column;
@@ -82,6 +100,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
   text-transform: uppercase;
   margin-bottom: 80px;
 }
+
 .image{
   margin-top: 80px;
   height: 33vh;
@@ -93,13 +112,16 @@ nav{
   width: 100%;
   text-align: center;
 }
+
 .icons ul{
   font-size: 2em;
 }
+
 .icons a{
   color: #3e70d4;
   margin-right: 15px;
 }
+
 .icons:hover{
   color: #739ef3;
   transition: color ease .8s;
@@ -111,6 +133,7 @@ nav{
 body{
   background-color: #749ef0;
 }
+
 .main-content{
   height: 100vh;
   width: 100vw;
@@ -118,20 +141,24 @@ body{
   flex-direction: row;
 
 }
+
 .imc_menu{
   flex-basis: 45%;
   flex-shrink: 0;
   background-color: #0A1931;
   height: 100%;
 }
+
 .title{
   color: #FFC947;
   font-size: 2.5em;
 }
+
 .imc_menu input{
   background-color: #102446;
   border: 2px solid #142444;
 }
+
 #btn{
   background-color: #FFC947;
   color: #142444;
@@ -146,26 +173,32 @@ body{
   flex-basis: 55%
 
 }
+
 .image{
   height: 500px;
   width: auto;
 
 }
+
 #output{
   color: #142444;
 }
+
 .icons{
   border: transparent;
 }
+
 .icons ul{
   position: absolute;
   top: 0;
   right: 30px;
   font-size: 2em;
 }
+
 .icons a{
   color: #142444;
 }
+
 .icons:hover{
   color: #3e70d4;
   transition: color ease .8s;
