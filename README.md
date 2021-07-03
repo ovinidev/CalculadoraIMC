@@ -33,7 +33,7 @@ Use os seguintes comandos:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/joaovictornsv/imc-calc
+$ git clone https://github.com/vinimedeiros13/CalculadoraIMC.git
 
 # Go into the repository
 $ cd CalculadoraIMC
