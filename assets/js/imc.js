@@ -60,10 +60,6 @@ function validation(){
   const $altura = document.querySelector("#altura").value;
   const $peso = document.querySelector("#peso").value;
 
-  if($altura >= 10){
-    alert("Digite a altura em metros");
-    return;
-  }
 
   if(!$altura || !$peso){
     return false;
