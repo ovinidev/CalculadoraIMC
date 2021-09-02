@@ -44,4 +44,3 @@ $ cd CalculadoraIMC
   <img align="left" src="https://i.imgur.com/u4ZiyT1.png" width=35 alt="Profile"/>
   <sub>Made with 🤍 by <a href="https://github.com/vinimedeiros13">Vinícius Medeiros</a></sub>
 </div>
- 
