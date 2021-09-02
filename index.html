@@ -5,29 +5,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Calcualdora IMC</title>
+
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
     integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <link
     href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Sintony:wght@400;700&display=swap"
     rel="stylesheet">
+
   <link rel="stylesheet" href="./assets/css/main.css">
   <link rel="stylesheet" href="./assets/css/normalize.css">
+
+  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2791/2791163.png" type="image/x-icon">
+
+  <title>Calculadora IMC</title>
+
 </head>
 
 <body>
   <section class="main-content">
     <article class="imc_menu">
-      <img class="image-bike" src="./assets/images/undraw_indoor_bike_pwa4.svg">
+      <img class="image-bike" src="./assets/images/undraw_indoor_bike_pwa4.svg" alt="Homem na bike">
 
       <h1 class="title">Calculadora IMC</h1>
 
       <form>
         <label for="altura">Altura</label>
-        <input type="number" id="altura" min="0" placeholder="Digite sua altura (m)">
+        <input type="number" id="altura" placeholder="Digite sua altura (m)">
 
         <label for="peso">Peso</label>
-        <input type="number" id="peso" min="0" placeholder="Digite seu peso (kg)">
+        <input type="number" id="peso" placeholder="Digite seu peso (kg)">
       
         <button id="btn">Calcular</button>
       </form>
@@ -35,7 +41,7 @@
     </article>
 
     <article class="result">
-      <img class="image" src="./assets/images/default_imc.svg">
+      <img class="image" src="./assets/images/default_imc.svg" alt="result image">
       <h2 id="output">Aguardando cálculo...</h2>
     </article>
 
@@ -53,5 +59,4 @@
   <script src="./assets/js/change.js"></script>
 
 </body>
-
 </html>
