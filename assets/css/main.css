@@ -86,6 +86,7 @@ form{
   text-transform: uppercase;
   cursor: pointer;
   transition: background ease .5s;
+  font-weight: bold;
 }
 
 .btn:hover{
