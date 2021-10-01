@@ -1,3 +1,7 @@
+/* Variables CSS */
+:root{
+  --main-color: #FFC947;
+}
 body{
   font-family: "Open Sans", sans-serif;
   background-color: #0A1931;
@@ -21,7 +25,7 @@ html{
 }
 
 h1{
-  color: #FFC947;
+  color: var(--main-color);
   text-align: center;
   margin-top: 50px;
   font-size: 2em;
@@ -33,7 +37,7 @@ h1{
 }
 
 .imc_menu{
-  color: #FFC947;
+  color: var(--main-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -54,7 +58,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
   border-radius: 5px;
   display: block;
   padding: 15px 10px;
-  color: #FFC947;
+  color: var(--main-color);
   font-size: 1.5em;
   margin: 20px 20px;
   border: 3px solid #122544;
@@ -67,7 +71,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
 }
 
 .imc_menu input::placeholder{
-  color: #FFC947;
+  color: var(--main-color);
 }
 
 form{
@@ -79,7 +83,7 @@ form{
 
 .btn{
   padding: 15px 20px;
-  background-color: #FFC947;
+  background-color:  var(--main-color);
   border-radius: 5px;
   border: transparent;
   margin-top: 50px;
@@ -167,7 +171,7 @@ body{
 }
 
 .title{
-  color: #FFC947;
+  color: var(--main-color);
   font-size: 2.5em;
 }
 
@@ -177,7 +181,7 @@ body{
 }
 
 .imc_menu_Light input{
-  background-color: #FFC947;
+  background-color: var(--main-color);
   border: 2px solid #fdcf65;
   color: #142444;
 }
@@ -194,7 +198,7 @@ body{
 
 
 .btn{
-  background-color: #FFC947;
+  background-color: var(--main-color);
   color: #142444;
 }
 
@@ -254,7 +258,7 @@ body{
 
 .lightModeBtn{
   background-color: #142444;
-  color: #FFC947;
+  color: var(--main-color)
 }
 
 .lightModeBtn:hover{
