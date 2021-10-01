@@ -205,3 +205,15 @@ body{
 
 }
 }
+
+.lightDarkMode{
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.lightDarkMode img{
+  width: 1.5rem;
+}
+.themeOff{
+  display: none;
+}
