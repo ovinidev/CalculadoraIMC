@@ -3,7 +3,7 @@ var $btn = document.querySelector("#btn");
 $btn.addEventListener("click", getValue);
 
 function getValue() {
-  if (validation() === true) {
+  if (validation()) {
     var $altura = document.querySelector("#altura").value;
     var $peso = document.querySelector("#peso").value;
 
