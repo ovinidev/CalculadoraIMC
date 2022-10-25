@@ -2,7 +2,7 @@
   
 # Calculadora IMC
   
-<h4>Uma calculadora de índice de massa corporal criado com HTML, CSS e JS. Com mudanças de cor de acordo com o resultado.</h4>
+<h4>Uma calculadora de índice de massa corporal criado com HTML, CSS e JS. Com responsividade e mudanças de cor de acordo com o resultado.</h4>
 <p>
 <!-- Image Shields -->
 <img  alt="Language Top"  src="https://img.shields.io/github/languages/top/vinimedeiros13/CalculadoraIMC">
